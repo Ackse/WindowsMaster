@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="4-Service">
+      <UniqueIdentifier>{fe81534d-6db2-482b-a515-960b3f114d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5-killVirus">
+      <UniqueIdentifier>{0796838d-c7fb-4a94-9923-253dee22d7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6-AppList">
+      <UniqueIdentifier>{dd9f2768-1ae5-4720-8e9b-c106a5d86b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7-PE">
+      <UniqueIdentifier>{9e8e44b7-bbbb-4848-accf-3284173496ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8-SoftUninstall">
+      <UniqueIdentifier>{3404eec1-77d6-43ca-8560-cd483f62776e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{126fad38-b4eb-4fb8-b49e-57dd01fee777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3-clean">
+      <UniqueIdentifier>{456d391a-2461-406b-a622-572e3bf968fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1-kernel">
+      <UniqueIdentifier>{931492c9-2951-405a-9fde-476869b9f8f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2-optimize">
+      <UniqueIdentifier>{1c29fd5f-8a7d-4643-aa0a-f6facfb0bd34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2-optimize\histogramCtrl">
+      <UniqueIdentifier>{fe0e7c64-bf9a-4915-b1aa-285194648a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2-optimize\littleRocket">
+      <UniqueIdentifier>{c908971e-aa6f-497c-add2-d23b917e64db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7-PE\1-PEAnaly">
+      <UniqueIdentifier>{5c8ac73b-200c-4c6f-bfe8-e96c3075e68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7-PE\2-1-section">
+      <UniqueIdentifier>{d5d8aee5-9175-467b-8706-8504ea7b62da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7-PE\2-2-DataDirection">
+      <UniqueIdentifier>{640d22aa-b2a8-430a-b86f-99e19ea30e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7-PE\2-3-export">
+      <UniqueIdentifier>{99c322b5-929b-4499-a899-7c540eb0004b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7-PE\2-4-import">
+      <UniqueIdentifier>{9e87a83f-5690-4be8-8f2f-e51aabcf9547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7-PE\2-5-resource">
+      <UniqueIdentifier>{c956b321-861d-4297-84fc-3d0a0f26ba5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7-PE\2-6-reloc">
+      <UniqueIdentifier>{da5857c9-e5b8-4807-a617-92a75ad0a8da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7-PE\2-7-tls">
+      <UniqueIdentifier>{90f123cf-a8e2-4f87-a3f9-ac33ea0ddfd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7-PE\2-8-delayLoad">
+      <UniqueIdentifier>{0f84d814-6a74-4272-a93c-4662f1c1fa8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="windows安全卫士.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="windows安全卫士Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTab.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaClean.h">
+      <Filter>3-clean</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaKernel.h">
+      <Filter>1-kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaKillVirus.h">
+      <Filter>5-killVirus</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogDataDirection.h">
+      <Filter>7-PE\2-2-DataDirection</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogExport.h">
+      <Filter>7-PE\2-3-export</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSection.h">
+      <Filter>7-PE\2-1-section</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogImport.h">
+      <Filter>7-PE\2-4-import</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaOptimize.h">
+      <Filter>2-optimize</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaPeAnaly.h">
+      <Filter>7-PE\1-PEAnaly</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaService.h">
+      <Filter>4-Service</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaSoftUninstall.h">
+      <Filter>8-SoftUninstall</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="HistogramCtrl.h">
+      <Filter>2-optimize\histogramCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="LittleRocket.h">
+      <Filter>2-optimize\littleRocket</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaAppList.h">
+      <Filter>6-AppList</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListBox.h">
+      <Filter>3-clean</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogResource.h">
+      <Filter>7-PE\2-5-resource</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogReloc.h">
+      <Filter>7-PE\2-6-reloc</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogTls.h">
+      <Filter>7-PE\2-7-tls</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogDelayLoad.h">
+      <Filter>7-PE\2-8-delayLoad</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="windows安全卫士.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="windows安全卫士Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTab.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaClean.cpp">
+      <Filter>3-clean</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaKernel.cpp">
+      <Filter>1-kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaKillVirus.cpp">
+      <Filter>5-killVirus</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDataDirection.cpp">
+      <Filter>7-PE\2-2-DataDirection</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogExport.cpp">
+      <Filter>7-PE\2-3-export</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSection.cpp">
+      <Filter>7-PE\2-1-section</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogImport.cpp">
+      <Filter>7-PE\2-4-import</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaOptimize.cpp">
+      <Filter>2-optimize</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaPeAnaly.cpp">
+      <Filter>7-PE\1-PEAnaly</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaService.cpp">
+      <Filter>4-Service</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaSoftUninstall.cpp">
+      <Filter>8-SoftUninstall</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramCtrl.cpp">
+      <Filter>2-optimize\histogramCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="LittleRocket.cpp">
+      <Filter>2-optimize\littleRocket</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaAppList.cpp">
+      <Filter>6-AppList</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListBox.cpp">
+      <Filter>3-clean</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogResource.cpp">
+      <Filter>7-PE\2-5-resource</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogReloc.cpp">
+      <Filter>7-PE\2-6-reloc</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogTls.cpp">
+      <Filter>7-PE\2-7-tls</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDelayLoad.cpp">
+      <Filter>7-PE\2-8-delayLoad</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windows安全卫士.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\windows.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource.hm">
+      <Filter>头文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\windows安全卫士.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
